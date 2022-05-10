@@ -7,5 +7,5 @@ RUN  apt  update \
      apt install jq -y \
      chmod 755 /usr/local/bin/check.sh
 
-ENTRYPOINT ["check.sh"]
+ENTRYPOINT ["/usr/local/bin/check.sh"]
      
