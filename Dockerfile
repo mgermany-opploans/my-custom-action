@@ -3,10 +3,8 @@ FROM ubuntu
 COPY check.sh /usr/local/bin/check.sh
 
 RUN  
-     chmod 755 /usr/local/bin/check.sh
-     apt  update \
-     apt  install curl -y \
-     apt install jq -y \
+     chmod 755 /usr/local/bin/check.sh \
+     echo "Hello Old Friend"
      
 
 ENTRYPOINT ["/usr/local/bin/check.sh"]
