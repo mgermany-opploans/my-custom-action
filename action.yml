@@ -1,8 +1,0 @@
-name: 'My custom action'
-description: 'A simple action'
-runs:
-   using: 'docker'
-   image: 'Dockerfile'
-branding:
-   icon: 'gift'
-   color: 'blue'
